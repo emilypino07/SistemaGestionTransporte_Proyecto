@@ -1,2 +1,171 @@
-# SistemaGestionTransporte_Proyecto
-Proyecto final de Programación Orientada a Objetos desarrollado con Python, PySide6 y SQL Server.
+# Sistema de Gestión de Servicios de Transporte
+
+## Descripción general
+
+Este proyecto consiste en un sistema de escritorio desarrollado en Python utilizando Programación Orientada a Objetos y una interfaz gráfica creada con Qt Designer (PySide6). El sistema permite administrar servicios de transporte mediante un CRUD completo conectado a una base de datos SQL Server.
+
+---
+
+## Integrantes
+
+- Emily Pino
+- Karen Alvarez
+- Sofia Vasquez
+- Andres Macias
+- Diddier Rodriguez
+
+---
+
+## Funcionalidades implementadas
+
+- Registro de servicios de transporte.
+- Generación automática del código del servicio.
+- Consulta de registros almacenados.
+- Actualización de información.
+- Eliminación de registros.
+- Cálculo automático de la tarifa.
+- Validación de datos ingresados.
+- Conexión con SQL Server.
+
+---
+
+## Tecnologías utilizadas
+
+- Python 3
+- PySide6
+- Qt Designer
+- SQL Server
+- PyODBC
+- Git
+- GitHub
+
+---
+
+## Instrucciones para ejecutar el proyecto
+
+1. Clonar el repositorio.
+2. Abrir el proyecto en PyCharm.
+3. Instalar las dependencias necesarias:
+
+```bash
+pip install PySide6
+pip install pyodbc
+```
+
+4. Crear la base de datos **ServicioTransporte** en SQL Server.
+5. Ejecutar el archivo `main.py`.
+
+---
+
+## Estructura del proyecto
+
+```
+Proyecto/
+│
+├── GUI/
+│   ├── transporte.ui
+│   └── transporte.py
+│
+├── clases/
+│   ├── pasajero.py
+│   ├── servicio_transporte.py
+│   ├── viaje_privado.py
+│   └── viaje_urbano.py
+│
+├── conexion.py
+├── main.py
+└── README.md
+```
+
+---
+
+## Descripción de la base de datos
+
+Base de datos:
+
+```
+ServicioTransporte
+```
+
+Tabla principal:
+
+```
+Servicios
+```
+
+Campos:
+
+- Idservicio
+- codigo
+- cedula
+- nombre
+- apellido
+- email
+- tipo
+- fecha
+- distancia
+- costo_km
+- estaciones
+- tarifa
+
+---
+
+## Capturas de pantalla
+
+Agregar imágenes de:
+
+- Interfaz principal.
+- Registro exitoso.
+- Consulta.
+- Actualización.
+- Eliminación.
+
+---
+
+## Evidencia de conexión
+
+Agregar una captura donde se observe:
+
+- SQL Server.
+- La tabla Servicios.
+- Los registros almacenados.
+
+---
+
+## Video demostrativo
+
+Colocar aquí el enlace del video.
+
+Ejemplo:
+
+```
+https://youtu.be/xxxxxxxx
+```
+
+---
+
+## Validaciones implementadas
+
+El sistema realiza las siguientes validaciones:
+
+- Campos obligatorios.
+- Formato del correo electrónico.
+- Cédula válida.
+- Código generado automáticamente.
+- Valores negativos no permitidos.
+- Confirmación antes de eliminar un registro.
+- Mensajes de error y confirmación.
+
+---
+
+## Estado del proyecto
+
+Proyecto finalizado.
+
+Todas las funcionalidades solicitadas en la guía fueron implementadas correctamente:
+
+- CRUD completo.
+- Conexión con SQL Server.
+- Interfaz gráfica.
+- Programación Orientada a Objetos.
+- Validaciones de datos.
