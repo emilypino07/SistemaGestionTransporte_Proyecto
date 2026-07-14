@@ -84,10 +84,7 @@ Proyecto/
 ---
 
 ## Descripción de la base de datos
-La base de datos utilizada es ServicioTransporte, desarrollada en SQL Server. El repositorio incluye el archivo ServicioTransporte.sql, el cual contiene el script necesario para crear la base de datos y la tabla Servicios con los siguientes campos:
--Idservicio       -codigo           - cedula            - nombre
--Apellido         -email            - tipo              - fecha
--Distancia        -costo_km         - estaciones        - tarifa
+La base de datos utilizada es ServicioTransporte, desarrollada en SQL Server. El repositorio incluye el archivo ServicioTransporte.sql, el cual contiene el script necesario para crear la base de datos y la tabla Servicios con los siguientes campos: IDservicio, Apellido, Distancia, Codigo, Email, Cedula, Tipo viaje, Nombre, Fecha, Estaciones, Costo_km, Tarifa
 
 ---
 
