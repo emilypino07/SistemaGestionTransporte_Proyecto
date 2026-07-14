@@ -36,7 +36,6 @@ Este proyecto consiste en un sistema de escritorio desarrollado en Python utiliz
 - Qt Designer
 - SQL Server
 - PyODBC
-- Git
 - GitHub
 
 ---
@@ -119,13 +118,11 @@ La base de datos utilizada es ServicioTransporte, desarrollada en SQL Server. El
 
 ### Validación de datos
 
-![Validación](Imagenes/Validacion_1.png)
+![Validación](imagenes/Validacion_1.png)
 
 ### Evidencia de la base de datos
 
-![SQL Server](Imagenes/Registro_SQL.png)
-
-
+![SQL Server](imagenes/Registro_SQL.png)
 
 ## Video demostrativo
 
@@ -156,9 +153,7 @@ El sistema realiza las siguientes validaciones:
 ## Estado del proyecto
 
 Proyecto finalizado.
-
 Todas las funcionalidades solicitadas en la guía fueron implementadas correctamente:
-
 - CRUD completo.
 - Conexión con SQL Server.
 - Interfaz gráfica.
