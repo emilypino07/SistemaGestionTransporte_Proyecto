@@ -75,7 +75,7 @@ Proyecto/
 │   ├── servicio_transporte.py
 │   ├── viaje_privado.py
 │   └── viaje_urbano.py
-│
+│── dominio/
 ├── conexion.py
 ├── main.py
 └── README.md
