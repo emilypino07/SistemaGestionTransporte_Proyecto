@@ -80,21 +80,7 @@ Proyecto/
 ---
 
 ## Descripción de la base de datos
-
-Base de datos:
-
-```
-ServicioTransporte
-```
-
-Tabla principal:
-
-```
-Servicios
-```
-
-Campos:
-
+La base de datos utilizada es ServicioTransporte, desarrollada en SQL Server. El repositorio incluye el archivo ServicioTransporte.sql, el cual contiene el script necesario para crear la base de datos y la tabla Servicios con los siguientes campos:
 - Idservicio
 - codigo
 - cedula
@@ -110,27 +96,36 @@ Campos:
 
 ---
 
-## Capturas de pantalla
+## Evidencias
+### Interfaz principal
 
-Agregar imágenes de:
+![Interfaz principal](Imagenes/interfaz.png)
 
-- Interfaz principal.
-- Registro exitoso.
-- Consulta.
-- Actualización.
-- Eliminación.
+### Registro de un servicio
 
----
+![Registro](Imagenes/registro.png)
 
-## Evidencia de conexión
+### Consulta de un servicio
 
-Agregar una captura donde se observe:
+![Mostrar](Imagenes/Mostrar_datos.png)
 
-- SQL Server.
-- La tabla Servicios.
-- Los registros almacenados.
+### Actualización de un servicio
 
----
+![Actualizar](Imagenes/Actualizar_datos.png)
+
+### Eliminación de un servicio
+
+![Eliminar](Imagenes/Eliminar_datos.png)
+
+### Validación de datos
+
+![Validación](Imagenes/Validacion_1.png)
+
+### Evidencia de la base de datos
+
+![SQL Server](Imagenes/Registro_SQL.png)
+
+
 
 ## Video demostrativo
 
