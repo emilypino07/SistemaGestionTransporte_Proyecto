@@ -98,11 +98,11 @@ La base de datos utilizada es ServicioTransporte, desarrollada en SQL Server. El
 ## Evidencias
 ### Interfaz principal
 
-![Interfaz principal](imagenes/interfaz.png)
+![Interfaz principal](imagenes/Interfaz.png)
 
 ### Registro de un servicio
 
-![Registro](imagenes/registro.png)
+![Registro](imagenes/Registro.png)
 
 ### Consulta de un servicio
 
