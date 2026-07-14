@@ -15,7 +15,12 @@ Este proyecto consiste en un sistema de escritorio desarrollado en Python utiliz
 - Diddier Rodriguez
 
 ---
+## Video Explicación proyecto
+```
+https://drive.google.com/file/d/1mp4iae8MPD9DX43g2VXeKAfHkEdwkSHB/view?usp=sharing
+```
 
+---
 ## Funcionalidades implementadas
 
 - Registro de servicios de transporte.
@@ -123,16 +128,6 @@ La base de datos utilizada es ServicioTransporte, desarrollada en SQL Server. El
 ### Evidencia de la base de datos
 
 ![SQL Server](imagenes/Registro_SQL.png)
-
-## Video demostrativo
-
-Colocar aquí el enlace del video.
-
-Ejemplo:
-
-```
-https://youtu.be/xxxxxxxx
-```
 
 ---
 
